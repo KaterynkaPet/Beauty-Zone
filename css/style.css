@@ -1,0 +1,52 @@
+:root {
+    --color-brand-light: #2B7FFF;
+    --color-primary-dark: #011C44;
+    --color-primary-light: #ffffff;
+    --color-secondary-dark: #4A4A4A;
+    --color-secondary-gray: #747272;
+    --color-secondary-navy: #011F4A;
+    --color-secondary-yellow: #FFD02B;
+}
+
+/* Base */
+
+body {
+    color: var(--color-primary-dark);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Button */
+
+.button {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
+}
+
+.button:hover {
+    color: var(--color-primary-dark);
+    background-color: transparent;
+}
+/* Link */
+.link {
+    color: var(--color-primary-dark);
+}
+
+.link:hover {
+    color: var(--color-brand-light);
+}
+
+/* Main */
+
+.main-title {
+    color: var(--color-brand-light);
+}
+
+/* About */
+
+.section-title .accent {
+    color: var(--color-brand-light);
+}
